@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f4ece1;
+  --color-primary-75: #fcfbf7;
+  --color-primary-100: #ffffff;
+
+  --color-primary-accent-100: #ff7e00;
+  --color-primary-accent-150: #febb41;
+
+  --color-primary-base-100: #c4c4c4;
+  --color-primary-base-150: #909090;
+  --color-primary-base-200: #2f2f2f;
+  --color-primary-base-300: #000000;
+}
+
+.bg-gradient-to-bottom {
+  @apply bg-[url('../src/assets/Noise.webp'),linear-gradient(to_bottom,var(--color-primary-50), var(--color-primary-75))];
+}
+
+.bg-gradient-to-top {
+  @apply bg-[url('../src/assets/Noise.webp'),linear-gradient(to_bottom,var(--color-primary-50), var(--color-primary-75))];
+}
