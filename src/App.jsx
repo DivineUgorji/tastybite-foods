@@ -1,17 +1,21 @@
-import Cake from "./components/icons/Cake"
-import Croissant from "./components/icons/Croissant"
-import Leaf from "./components/icons/Leaf"
-import Header from "./components/sections/Header"
-import Page from "./components/sections/Page"
+import Header from "./components/sections/Header";
+import MobileMenu from "./components/sections/MobileMenu/MobileMenu";
+import Navigation from "./components/sections/Navigation";
+import Page from "./components/sections/Page";
+import { MobileMenuContextProvider } from "./Contexts/MobileMenuContext";
 
 function App() {
   return (
-    <Page>
-      <Header>
-        
-      </Header>
-    </Page>
-  )
+    <MobileMenuContextProvider>
+      <Page>
+        <Header>
+          <Navigation />
+        </Header>
+
+        <MobileMenu />
+      </Page>
+    </MobileMenuContextProvider>
+  );
 }
 
-export default App
+export default App;
