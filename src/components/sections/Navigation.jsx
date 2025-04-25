@@ -20,7 +20,7 @@ function Navigation() {
           ))}
         </ul>
 
-        <button className="bg-primary-accent-100 border-primary-accent-100 text-primary-100 rounded-full px-8 py-2 border-2 cursor-pointer text-base/loose hover:bg-primary-accent-75 hover:border-primary-accent-75 transition-properties font-medium text-[1.1rem]">
+        <button className="bg-primary-accent-100 border-primary-accent-100 text-primary-100 rounded-full px-8 py-2 border-2 cursor-pointer text-base/loose hover:bg-primary-accent-75 hover:border-primary-accent-75 transition-properties font-medium text-[1rem]">
           Order Now
         </button>
       </div>
