@@ -3,7 +3,7 @@ import { reviews } from "../../utils/contents";
 import Play from "../icons/Play";
 function Hero() {
   return (
-    <div className="bg-primary-50 w-full mx-auto max-w-[90rem] px-4 sm:px-8 lg:px-20 py-12 md:py-24 grid grid-cols-1 gap-y-9 md:grid-cols-[5fr_4fr] md:gap-x-9">
+    <div className="w-full mx-auto max-w-[90rem] px-4 sm:px-8 lg:px-20 py-12 md:py-24 grid grid-cols-1 gap-y-9 md:grid-cols-[5fr_4fr] md:gap-x-9">
       <div className="">
         {/* Text content */}
         <h1 className="text-primary-base-500 font-bold text-3xl/8 tracking-tighter md:text-5xl/14 mb-6 md:mb-10">

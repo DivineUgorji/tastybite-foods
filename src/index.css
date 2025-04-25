@@ -16,12 +16,14 @@
   --color-primary-accent-150: #febb41;
 
   --color-primary-base-75: #666666;
-  --color-primary-base-100: #c4c4c4;
+  /* --color-primary-base-100: #c4c4c4; */
+  --color-primary-base-100: #484848;
+  /* --color-primary-base-100: #8d8d8d; */
   --color-primary-base-150: #909090;
   --color-primary-base-200: #2f2f2f;
   --color-primary-base-250: #333;
-  --color-primary-base-300: #000000;
-  --color-primary-base-400: #112a46;
+  /* --color-primary-base-300: #000000; */
+  /* --color-primary-base-400: #112a46; */
   --color-primary-base-500: #1a1a1a;
 
   --font-family: "Poppins", sans-serif;
