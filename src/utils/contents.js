@@ -63,6 +63,152 @@ const reviews = [
   },
 ];
 
+const menu = [
+  {
+    id: 1,
+    src: new URL("../assets/menu/beef.jpg", import.meta.url),
+    title: "Beef Shawarma",
+    description: "",
+    price: "2,900",
+  },
+
+  {
+    id: 2,
+    src: new URL("../assets/menu/chicken.jpg", import.meta.url),
+    title: "Chicken Shawarma",
+    description: "",
+    price: "3,200",
+  },
+
+  {
+    id: 3,
+    src: new URL("../assets/menu/mixed.jpeg", import.meta.url),
+    title: "Mixed Shawarma",
+    description: "",
+    price: "3,800",
+  },
+
+  {
+    id: 4,
+    src: new URL("../assets/menu/beef-sausage.jpeg", import.meta.url),
+    title: "Beef With Sausage",
+    description: "",
+    price: "3,600",
+  },
+
+  {
+    id: 5,
+    src: new URL("../assets/menu/chicken-sausage.jpeg", import.meta.url),
+    title: "Chicken With Sausage",
+    description: "",
+    price: "3,900",
+  },
+
+  {
+    id: 6,
+    src: new URL("../assets/menu/mixed-sausage.jpeg", import.meta.url),
+    title: "Mixed With Sausage",
+    description: "",
+    price: "4,500",
+  },
+
+  {
+    id: 7,
+    src: new URL("../assets/menu/beef-extra.jpeg", import.meta.url),
+    title: "Beef Extra Padding",
+    description: "",
+    price: "4,100",
+  },
+
+  {
+    id: 8,
+    src: new URL("../assets/menu/extra-chicken.jpeg", import.meta.url),
+    title: "Chicken Extra Padding",
+    description: "",
+    price: "4,400",
+  },
+
+  {
+    id: 9,
+    src: new URL("../assets/menu/mixed-extra.jpeg", import.meta.url),
+    title: "Mixed Extra Padding",
+    description: "",
+    price: "5,000",
+  },
+
+  {
+    id: 10,
+    src: new URL("../assets/menu/beef-special.jpeg", import.meta.url),
+    title: "Beef Shawarma Special",
+    description: "",
+    price: "4,800",
+  },
+
+  {
+    id: 11,
+    src: new URL("../assets/menu/chicken-special.jpeg", import.meta.url),
+    title: "Chicken Shawarma Special",
+    description: "",
+    price: "5,100",
+  },
+
+  {
+    id: 12,
+    src: new URL("../assets/menu/mixed-special.jpeg", import.meta.url),
+    title: "Beef Shawarma",
+    description: "",
+    price: "2,900",
+  },
+
+  {
+    id: 13,
+    src: new URL("../assets/menu/burger.jpg", import.meta.url),
+    title: "Burger",
+    description: "",
+    price: "4,000",
+  },
+
+  {
+    id: 14,
+    src: new URL("../assets/menu/chicken-chips.jpg", import.meta.url),
+    title: "Chicken And Chips",
+    description: "",
+    price: "7,000",
+  },
+
+  {
+    id: 15,
+    src: new URL("../assets/menu/burger-chips.jpg", import.meta.url),
+    title: "Burger And Chips",
+    description: "",
+    price: "6,500",
+  },
+
+  {
+    id: 16,
+    src: new URL("../assets/menu/meatpie.jpg", import.meta.url),
+    title: "Meat Pie",
+    description: "",
+    price: "800",
+  },
+
+  {
+    id: 17,
+    src: new URL("../assets/menu/super-roll.jpg", import.meta.url),
+    title: "Beef Shawarma",
+    description: "",
+    price: "800",
+  },
+
+  {
+    id: 18,
+    src: new URL("../assets/menu/drinks.jpeg", import.meta.url),
+    title: "Drinks",
+    description: "",
+    price: "500",
+  },
+];
+
 const frequentlyAskedQuestions = [
   {
     category: "Menu",
@@ -409,6 +555,7 @@ const footerCols = [
 export {
   navigationLinks,
   reviews,
+  menu,
   testimonials,
   frequentlyAskedQuestions,
   footerCols,
