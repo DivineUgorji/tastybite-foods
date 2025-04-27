@@ -68,7 +68,8 @@ const menu = [
     id: 1,
     src: new URL("../assets/menu/beef.jpg", import.meta.url),
     title: "Beef Shawarma",
-    description: "",
+    description:
+      "Thinly sliced, marinated beef, packed with rich spices and served in flatbread with veggies and sauces.",
     price: "2,900",
   },
 
@@ -76,7 +77,8 @@ const menu = [
     id: 2,
     src: new URL("../assets/menu/chicken.jpg", import.meta.url),
     title: "Chicken Shawarma",
-    description: "",
+    description:
+      "Tender, well spiced and grilled chicken, wrapped in flatbread with fresh toppings and creamy sauce.",
     price: "3,200",
   },
 
@@ -84,7 +86,8 @@ const menu = [
     id: 3,
     src: new URL("../assets/menu/mixed.jpeg", import.meta.url),
     title: "Mixed Shawarma",
-    description: "",
+    description:
+      "A delicious combo of beef and chicken shawarma, wrapped with fresh veggies and sauces.",
     price: "3,800",
   },
 
@@ -92,7 +95,8 @@ const menu = [
     id: 4,
     src: new URL("../assets/menu/beef-sausage.jpeg", import.meta.url),
     title: "Beef With Sausage",
-    description: "",
+    description:
+      "Juicy beef shawarma loaded with flavorful sausage and tasty fillings.",
     price: "3,600",
   },
 
@@ -100,7 +104,8 @@ const menu = [
     id: 5,
     src: new URL("../assets/menu/chicken-sausage.jpeg", import.meta.url),
     title: "Chicken With Sausage",
-    description: "",
+    description:
+      "Tender chicken shawarma paired with sausage for a hearty, flavorful wrap.",
     price: "3,900",
   },
 
@@ -108,7 +113,8 @@ const menu = [
     id: 6,
     src: new URL("../assets/menu/mixed-sausage.jpeg", import.meta.url),
     title: "Mixed With Sausage",
-    description: "",
+    description:
+      "Beef and chicken shawarma combined with sausage for a rich, satisfying bite.",
     price: "4,500",
   },
 
@@ -116,7 +122,8 @@ const menu = [
     id: 7,
     src: new URL("../assets/menu/beef-extra.jpeg", import.meta.url),
     title: "Beef Extra Padding",
-    description: "",
+    description:
+      "Beef shawarma with extra meat and fillings for a fuller, heavier wrap.",
     price: "4,100",
   },
 
@@ -124,7 +131,8 @@ const menu = [
     id: 8,
     src: new URL("../assets/menu/extra-chicken.jpeg", import.meta.url),
     title: "Chicken Extra Padding",
-    description: "",
+    description:
+      "Chicken shawarma packed with extra layers of chicken and toppings.",
     price: "4,400",
   },
 
@@ -132,7 +140,8 @@ const menu = [
     id: 9,
     src: new URL("../assets/menu/mixed-extra.jpeg", import.meta.url),
     title: "Mixed Extra Padding",
-    description: "",
+    description:
+      "Extra-loaded beef and chicken shawarma for a truly filling experience.",
     price: "5,000",
   },
 
@@ -140,7 +149,8 @@ const menu = [
     id: 10,
     src: new URL("../assets/menu/beef-special.jpeg", import.meta.url),
     title: "Beef Shawarma Special",
-    description: "",
+    description:
+      "Premium beef shawarma with special sauces and extra stuffing.",
     price: "4,800",
   },
 
@@ -148,15 +158,17 @@ const menu = [
     id: 11,
     src: new URL("../assets/menu/chicken-special.jpeg", import.meta.url),
     title: "Chicken Shawarma Special",
-    description: "",
+    description:
+      "Special chicken shawarma featuring extra flavors and hearty toppings.",
     price: "5,100",
   },
 
   {
     id: 12,
     src: new URL("../assets/menu/mixed-special.jpeg", import.meta.url),
-    title: "Beef Shawarma",
-    description: "",
+    title: "Mixed Shawarma Special",
+    description:
+      "A special blend of beef and chicken shawarma, fully loaded with sauces and extras.",
     price: "2,900",
   },
 
@@ -164,7 +176,8 @@ const menu = [
     id: 13,
     src: new URL("../assets/menu/burger.jpg", import.meta.url),
     title: "Burger",
-    description: "",
+    description:
+      "Classic juicy beef burger served in a soft bun with fresh veggies and sauce.",
     price: "4,000",
   },
 
@@ -172,7 +185,8 @@ const menu = [
     id: 14,
     src: new URL("../assets/menu/chicken-chips.jpg", import.meta.url),
     title: "Chicken And Chips",
-    description: "",
+    description:
+      "Crispy fried chicken served with golden, crunchy chips (fries).",
     price: "7,000",
   },
 
@@ -180,7 +194,8 @@ const menu = [
     id: 15,
     src: new URL("../assets/menu/burger-chips.jpg", import.meta.url),
     title: "Burger And Chips",
-    description: "",
+    description:
+      "Tasty beef burger paired with a side of crispy chips (fries).",
     price: "6,500",
   },
 
@@ -188,15 +203,17 @@ const menu = [
     id: 16,
     src: new URL("../assets/menu/meatpie.jpg", import.meta.url),
     title: "Meat Pie",
-    description: "",
+    description:
+      "Flaky pastry stuffed with seasoned minced meat and savory fillings.",
     price: "800",
   },
 
   {
     id: 17,
     src: new URL("../assets/menu/super-roll.jpg", import.meta.url),
-    title: "Beef Shawarma",
-    description: "",
+    title: "Super Roll",
+    description:
+      "Big, flavorful pastry roll packed with seasoned meat and spices.",
     price: "800",
   },
 
@@ -204,7 +221,8 @@ const menu = [
     id: 18,
     src: new URL("../assets/menu/drinks.jpeg", import.meta.url),
     title: "Drinks",
-    description: "",
+    description:
+      "A refreshing selection of soft drinks to enjoy with your meal.",
     price: "500",
   },
 ];
