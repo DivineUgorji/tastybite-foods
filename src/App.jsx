@@ -19,6 +19,7 @@ function App() {
 
         <Main>
           <Contact />
+          <Menus />
         </Main>
         <MobileMenu />
       </Page>

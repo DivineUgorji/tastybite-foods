@@ -10,7 +10,7 @@ function Hero() {
           Freshly Made <span className="text-primary-accent-100">Burgers.</span>{" "}
           <br /> To Satisfy Every Craving
         </h1>
-        <p className="text-primary-base-200 text-sm/normal md:text-lg/normal mb-6 md:mb-10">
+        <p className="text-primary-base-200 text-base/normal md:text-lg/normal mb-6 md:mb-10">
           From crispy shawarma to sweet cupcakes, <br /> Tasty Bite is the best
           plug for your fresh, flavor-packed pastries,
           <br /> crafted with love and care right here in FUTO and Owerri.

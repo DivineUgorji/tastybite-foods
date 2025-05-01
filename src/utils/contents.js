@@ -69,7 +69,7 @@ const menu = [
     src: new URL("../assets/menu/beef.jpg", import.meta.url),
     title: "Beef Shawarma",
     description:
-      "Thinly sliced, marinated beef, packed with rich spices and served in flatbread with veggies and sauces.",
+      "Marinated spiced beef wrapped in flatbread with veggies & sauces.",
     price: "2,900",
   },
 
@@ -77,8 +77,7 @@ const menu = [
     id: 2,
     src: new URL("../assets/menu/chicken.jpg", import.meta.url),
     title: "Chicken Shawarma",
-    description:
-      "Tender, well spiced and grilled chicken, wrapped in flatbread with fresh toppings and creamy sauce.",
+    description: "Spiced grilled chicken wrap with toppings & creamy sauce.",
     price: "3,200",
   },
 
@@ -87,7 +86,7 @@ const menu = [
     src: new URL("../assets/menu/mixed.jpeg", import.meta.url),
     title: "Mixed Shawarma",
     description:
-      "A delicious combo of beef and chicken shawarma, wrapped with fresh veggies and sauces.",
+      "Beef & chicken shawarma wrapped with fresh veggies and sauces.",
     price: "3,800",
   },
 
@@ -114,7 +113,7 @@ const menu = [
     src: new URL("../assets/menu/mixed-sausage.jpeg", import.meta.url),
     title: "Mixed With Sausage",
     description:
-      "Beef and chicken shawarma combined with sausage for a rich, satisfying bite.",
+      "Beef & chicken shawarma with sausage for a rich, satisfying bite.",
     price: "4,500",
   },
 
@@ -141,13 +140,13 @@ const menu = [
     src: new URL("../assets/menu/mixed-extra.jpeg", import.meta.url),
     title: "Mixed Extra Padding",
     description:
-      "Extra-loaded beef and chicken shawarma for a truly filling experience.",
+      "Extra-loaded beef & chicken shawarma for ultimate satisfaction.",
     price: "5,000",
   },
 
   {
     id: 10,
-    src: new URL("../assets/menu/beef-special.jpeg", import.meta.url),
+    src: new URL("../assets/menu/beef-special.jpg", import.meta.url),
     title: "Beef Shawarma Special",
     description:
       "Premium beef shawarma with special sauces and extra stuffing.",
@@ -156,7 +155,7 @@ const menu = [
 
   {
     id: 11,
-    src: new URL("../assets/menu/chicken-special.jpeg", import.meta.url),
+    src: new URL("../assets/menu/chicken-special.jpg", import.meta.url),
     title: "Chicken Shawarma Special",
     description:
       "Special chicken shawarma featuring extra flavors and hearty toppings.",
@@ -168,7 +167,7 @@ const menu = [
     src: new URL("../assets/menu/mixed-special.jpeg", import.meta.url),
     title: "Mixed Shawarma Special",
     description:
-      "A special blend of beef and chicken shawarma, fully loaded with sauces and extras.",
+      "A special blend of beef and chicken shawarma, fully loaded with sauces.",
     price: "2,900",
   },
 
@@ -176,8 +175,7 @@ const menu = [
     id: 13,
     src: new URL("../assets/menu/burger.jpg", import.meta.url),
     title: "Burger",
-    description:
-      "Classic juicy beef burger served in a soft bun with fresh veggies and sauce.",
+    description: "Classic juicy beef burger served in fresh veggies and sauce.",
     price: "4,000",
   },
 
