@@ -2,7 +2,13 @@ import { motion } from "framer-motion";
 
 function Menu({ tastyMenu }) {
   return (
-    <motion.li className="flex flex-col px-6 py-8 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)]">
+    <motion.li
+      className="flex flex-col px-6 py-8 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.3)]"
+      initial={{ opacity: 0, y: 0 }}
+      whileInView={{ opacity: 1, y: 40 }}
+      viewport={{ once: false, amount: "100% " }}
+      transition={{ opacity: { duration: 0.75, ease: "easeInOut" } }}
+    >
       <img
         className="h-48 w-full object-cover rounded-xl"
         src={tastyMenu.src}

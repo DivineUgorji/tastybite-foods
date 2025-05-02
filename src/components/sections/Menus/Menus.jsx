@@ -21,7 +21,7 @@ function Menus() {
             the taste they trust.
           </p>
         </div>
-        <div className="mb-12">
+        <div className="mb-16">
           <MenuList tastyMenus={tastyMenus.slice(0, expanded ? 6 : 3)} />
           <MenuList tastyMenus={tastyMenus.slice(6, expanded ? 12 : 9)} />
           <MenuList tastyMenus={tastyMenus.slice(12, expanded ? 18 : 15)} />
