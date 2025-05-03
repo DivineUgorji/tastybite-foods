@@ -11,6 +11,8 @@ import PartyPopper from "../components/icons/PartyPopper";
 import CustomizeSliders from "../components/icons/CustomizeSliders";
 import VegetarianCarrot from "../components/icons/VegetarianCarrot";
 import Spice from "../components/icons/Spice";
+import ChefHat from "../components/icons/ChefHat";
+import Wallet from "../components/icons/Wallet";
 
 const navigationLinks = [
   {
@@ -222,6 +224,44 @@ const menu = [
     description:
       "A refreshing selection of soft drinks to enjoy with your meal.",
     price: "500",
+  },
+];
+
+const whyUs = [
+  {
+    id: 1,
+    Icon: ChefHat,
+    alt: "Chef hat icon",
+    title: "Unmatched Taste & Quality",
+    description:
+      "We craft every shawarma, burger, and pastry using fresh, top-quality ingredients and time-tested recipes, giving you a flavor experience you won’t find anywhere else.",
+  },
+
+  {
+    id: 2,
+    Icon: Wallet,
+    alt: "wallet icon",
+    title: "Big Portions, Fair Prices",
+    description:
+      "We believe in giving real value — you get generous, satisfying servings that fill you up, all without breaking your wallet.",
+  },
+
+  {
+    id: 3,
+    Icon: Truck,
+    alt: "delivery truck icon",
+    title: "Fast, Friendly Service",
+    description:
+      "We value your time — whether you pick up or order for home delivery, we prepare your food quickly, handle it with care, and make sure it reaches you fresh and satisfying.",
+  },
+
+  {
+    id: 4,
+    Icon: Flame,
+    alt: "delivery truck icon",
+    title: "Consistent Quality, Every Time",
+    description:
+      "We don’t just impress once — every bite, every order, every visit delivers the same high standards you can count on.",
   },
 ];
 
