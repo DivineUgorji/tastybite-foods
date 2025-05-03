@@ -1,70 +1,52 @@
-import ChefHat from "../icons/ChefHat";
-import Flame from "../icons/Flame";
-import Truck from "../icons/Truck";
-import Wallet from "../icons/Wallet";
+import { motion } from "framer-motion";
+import { whyUs } from "../../utils/contents";
+
+const fadeInAnimationVariants = {
+  hidden: { opacity: 0, y: 100 },
+  visible: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: 0.1 * index, duration: 0.6, ease: "easeInOut" },
+  }),
+};
 
 function WhyUs() {
   return (
     <section className="bg-primary-75 mx-auto max-w-[90rem] px-4 sm:px-8 lg:px-20 py-12 md:py-24">
-      <div>
-        <div className="text-center">
-          <h2>What Makes Us Different</h2>
-          <p>Here are a few reasons why our customers love us so much</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6 mt-6 items-stretch">
-          <div className="flex flex-col px-4 py-6 rounded-2xl shadow h-full">
-            <div className="flex justify-center mb-4">
-              <ChefHat />
-            </div>
-            <h4 className="text-center font-semibold text-lg mb-2">
-              Unmatched Taste & Quality
-            </h4>
-            <p className="flex-grow text-center text-sm">
-              We craft every shawarma, burger, and pastry with fresh,
-              top-quality ingredients for a flavor you won’t find anywhere else.
-            </p>
-          </div>
-
-          <div className="flex flex-col px-4 py-6 rounded-2xl shadow h-full">
-            <div className="flex justify-center mb-4">
-              <Wallet />
-            </div>
-            <h4 className="text-center font-semibold text-lg mb-2">
-              Big Portions, Fair Prices
-            </h4>
-            <p className="flex-grow text-center text-sm">
-              We believe in giving real value — you get generous, satisfying
-              servings that fill you up, all without breaking your wallet.
-            </p>
-          </div>
-
-          <div className="flex flex-col px-4 py-6 rounded-2xl shadow h-full">
-            <div className="flex justify-center mb-4">
-              <Truck />
-            </div>
-            <h4 className="text-center font-semibold text-lg mb-2">
-              Fast, Friendly Service
-            </h4>
-            <p className="flex-grow text-center text-sm">
-              We value your time — whether you pick up or get home delivery, we
-              prepare your food quickly and ensure it’s fresh and satisfying.
-            </p>
-          </div>
-
-          <div className="flex flex-col px-4 py-6 rounded-2xl shadow h-full">
-            <div className="flex justify-center mb-4">
-              <Flame />
-            </div>
-            <h4 className="text-center font-semibold text-lg mb-2">
-              Consistent Quality
-            </h4>
-            <p className="flex-grow text-center text-sm">
-              We don’t just impress once — every bite, every order, every visit
-              delivers the same high standards you can count on.
-            </p>
-          </div>
-        </div>
+      <div className="text-center">
+        <h2 className="text-primary-base-500 font-bold text-2xl/tight tracking-tight md:text-4xl/12">
+          What Makes Us Different
+        </h2>
+        <p className="text-primary-base-200 text-base md:text-lg mt-2">
+          Here are a few reasons why our customers love us so much
+        </p>
       </div>
+
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+        {whyUs.map((benefit, index) => (
+          <motion.li
+            key={benefit.id}
+            className="flex flex-col items-center px-6 py-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300"
+            variants={fadeInAnimationVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            custom={index}
+          >
+            <benefit.Icon
+              alt={benefit.alt}
+              width={2}
+              className="text-primary-accent-100 mb-6"
+            />
+            <h4 className="font-semibold text-lg mb-4 text-center">
+              {benefit.title}
+            </h4>
+            <p className="text-center text-sm text-primary-base-300">
+              {benefit.description}
+            </p>
+          </motion.li>
+        ))}
+      </ul>
     </section>
   );
 }
