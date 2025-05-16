@@ -6,6 +6,7 @@ import Menus from "./components/sections/Menus/Menus";
 import MobileMenu from "./components/sections/MobileMenu/MobileMenu";
 import Navigation from "./components/sections/Navigation";
 import Page from "./components/sections/Page";
+import Testimonials from "./components/sections/Testimonials/Testimonials";
 import WhyUs from "./components/sections/WhyUs";
 import { MobileMenuContextProvider } from "./Contexts/MobileMenuContext";
 
@@ -22,6 +23,7 @@ function App() {
           <Contact />
           <Menus />
           <WhyUs />
+          <Testimonials />
         </Main>
         <MobileMenu />
       </Page>

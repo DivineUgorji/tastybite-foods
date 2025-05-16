@@ -15,7 +15,7 @@ function Menus() {
           <h2 className="text-primary-base-500 font-bold text-2xl/tight tracking-tight md:text-4xl/12">
             What Our Signature Menu <br /> Brings To The Table
           </h2>
-          <p className="text-primary-base-200 text-base/normal md:text-lg/normal ">
+          <p className="text-primary-base-200 text-base/normal md:text-lg/normal">
             Our menu is crafted with fresh ingredients and bold flavors, proudly
             serving hundreds of our loyal food lovers who keep coming back for
             the taste they trust.
@@ -26,7 +26,7 @@ function Menus() {
           <MenuList tastyMenus={tastyMenus.slice(6, expanded ? 12 : 9)} />
           <MenuList tastyMenus={tastyMenus.slice(12, expanded ? 18 : 15)} />
         </div>
-        <button
+        {/* <button
           className="bg-primary-base-500 text-primary-75 border-2 border-primary-base-500 transition-properties rounded-full px-8 py-2 hover:bg-primary-75 hover:text-primary-base-500 hover:border-primary-base-500 cursor-pointer flex items-center gap-x-2 text-base/loose sm:text-lg/8"
           onClick={() => setExpanded((currentValue) => !currentValue)}
         >
@@ -38,7 +38,7 @@ function Menus() {
             }`}
             alt="caretup icon"
           />
-        </button>
+        </button> */}
       </div>
     </section>
   );

@@ -30,7 +30,7 @@ function WhyUs() {
             variants={fadeInAnimationVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
             custom={index}
           >
             <benefit.Icon
