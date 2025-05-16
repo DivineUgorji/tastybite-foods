@@ -20,10 +20,10 @@ function Testimonials() {
             what they’re saying.
           </p>
         </div>
-        <div className="mb-8 sm:mb-16 w-full">
-          <TestimonialList testimonials={test.slice(0, expanded ? 6 : 3)} />
-          <TestimonialList testimonials={test.slice(6, expanded ? 12 : 9)} />
-          <TestimonialList testimonials={test.slice(12, expanded ? 18 : 15)} />
+        <div className="mb-8 sm:mb-24 w-full">
+          <TestimonialList testimonials={test.slice(0, expanded ? 18 : 9)} />
+          {/* <TestimonialList testimonials={test.slice(6, expanded ? 12 : 9)} /> */}
+          {/* <TestimonialList testimonials={test.slice(12, expanded ? 18 : 15)} /> */}
         </div>
 
         <button

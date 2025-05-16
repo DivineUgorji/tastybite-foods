@@ -607,7 +607,7 @@ const testimonials = [
     rating: 5,
     description:
       "This is honestly one of the best food spots I’ve tried in a while. The shawarma was fresh, well-spiced, and super filling. I also loved how clean and organized the place was. Can’t wait to bring my sister here.",
-    src: new URL("../assets/headshots/img-20.jpg", import.meta.url),
+    src: new URL("../assets/headshots/img-20.png", import.meta.url),
     name: "Chiamaka Oge",
     title: "customer",
   },
