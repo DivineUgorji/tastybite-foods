@@ -1,3 +1,4 @@
+import FAQs from "./components/FAQs/FAQs";
 import Contact from "./components/sections/Contact";
 import Header from "./components/sections/Header";
 import Hero from "./components/sections/Hero";
@@ -24,6 +25,7 @@ function App() {
           <Menus />
           <WhyUs />
           <Testimonials />
+          <FAQs />
         </Main>
         <MobileMenu />
       </Page>

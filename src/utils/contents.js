@@ -444,6 +444,7 @@ const testimonials = [
     name: "Victor Dominion",
     title: "customer",
   },
+
   {
     id: 2,
     rating: 5,
@@ -542,6 +543,7 @@ const testimonials = [
     name: "Emma Uchechukwu",
     title: "customer",
   },
+
   {
     id: 12,
     rating: 5,
