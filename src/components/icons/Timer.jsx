@@ -1,4 +1,4 @@
-function Logo({ className, width = 1.5, alt }) {
+function Timer({ className, width = 1.5, alt }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -7,20 +7,35 @@ function Logo({ className, width = 1.5, alt }) {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      className={className}
+      class={className}
       role="img"
       aria-label={alt}
     >
       <title>{alt}</title>
-      <path
-        d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"
+      <line
+        x1="10"
+        x2="14"
+        y1="2"
+        y2="2"
         strokeWidth={width}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
 
-      <path
-        d="M6 17h12"
+      <line
+        x1="12"
+        x2="15"
+        y1="14"
+        y2="11"
+        strokeWidth={width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+
+      <circle
+        cx="12"
+        cy="14"
+        r="8"
         strokeWidth={width}
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -29,4 +44,4 @@ function Logo({ className, width = 1.5, alt }) {
   );
 }
 
-export default Logo;
+export default Timer;

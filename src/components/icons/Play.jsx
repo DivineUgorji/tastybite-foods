@@ -8,22 +8,24 @@ function Play({ className, width = 1.5, alt }) {
       fill="none"
       stroke="currentColor"
       className={className}
-      alt={alt}
+      role="img"
+      aria-label={alt}
     >
+      <title>{alt}</title>
       <circle
         cx="12"
         cy="12"
         r="10"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
 
       <polygon
         points="10 8 16 12 10 16 10 8"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

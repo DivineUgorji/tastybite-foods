@@ -8,19 +8,22 @@ function Close({ className, width = 1.5, alt }) {
       fill="none"
       stroke="currentColor"
       className={className}
+      role="img"
+      aria-label={alt}
     >
+      <title>{alt}</title>
       <path
         d="M18 6 6 18"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
 
       <path
         d="m6 6 12 12"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

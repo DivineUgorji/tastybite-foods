@@ -13,6 +13,7 @@ import VegetarianCarrot from "../components/icons/VegetarianCarrot";
 import Spice from "../components/icons/Spice";
 import ChefHat from "../components/icons/ChefHat";
 import Wallet from "../components/icons/Wallet";
+import Timer from "../components/icons/Timer";
 
 const navigationLinks = [
   {
@@ -333,7 +334,8 @@ const frequentlyAskedQuestions = [
         id: 6,
         Icon: Phone,
         alt: "Phone icon",
-        question:
+        question: "How can I place order?",
+        answer:
           "You can order directly through our WhatsApp line or call 09161681691, social media pages, or by visiting our store.\
             Online ordering through our website is coming soon!",
       },
@@ -349,7 +351,7 @@ const frequentlyAskedQuestions = [
 
       {
         id: 8,
-        Icon: Clock,
+        Icon: Timer,
         alt: "clock icon",
         question: "How long does delivery usually take?",
         answer:
@@ -359,7 +361,7 @@ const frequentlyAskedQuestions = [
   },
 
   {
-    category: "Hours",
+    category: "Operations",
     id: 3,
     questions: [
       {

@@ -8,16 +8,18 @@ function MobileMenuIcon({ className, width = 1.5, alt }) {
       fill="none"
       stroke="currentColor"
       className={className}
-      alt={alt}
+      role="img"
+      aria-label={alt}
     >
+      <title>{alt}</title>
       <line
         x1="4"
         x2="20"
         y1="12"
         y2="12"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeWinecap="round"
+        strokeWinejoin="round"
       />
 
       <line
@@ -25,9 +27,9 @@ function MobileMenuIcon({ className, width = 1.5, alt }) {
         x2="20"
         y1="6"
         y2="6"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeWinecap="round"
+        strokeWinejoin="round"
       />
 
       <line
@@ -35,9 +37,9 @@ function MobileMenuIcon({ className, width = 1.5, alt }) {
         x2="20"
         y1="18"
         y2="18"
-        stroke-width={width}
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth={width}
+        strokeWinecap="round"
+        strokeWinejoin="round"
       />
     </svg>
   );
